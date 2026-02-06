@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 SELECT
    e.employee_id,
    e.employee_name,
@@ -11,3 +12,13 @@ GROUP BY
    e.employee_id, e.employee_name
 ORDER BY
    total_leaves DESC;
+=======
+CREATE TABLE employee (
+    emp_id INT PRIMARY KEY,
+    name VARCHAR(100),
+    department VARCHAR(50),
+    salary DECIMAL(10,2),
+    hire_date DATE
+);
+
+>>>>>>> Stashed changes
