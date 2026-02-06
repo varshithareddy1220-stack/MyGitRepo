@@ -1,5 +1,7 @@
+
 ##Added Sql file
 
+Added employe table query
 SELECT
    e.employee_id,
    e.employee_name,
