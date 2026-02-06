@@ -1,3 +1,5 @@
+##Added Sql file
+
 SELECT
    e.employee_id,
    e.employee_name,
@@ -10,6 +12,7 @@ JOIN
 GROUP BY
    e.employee_id, e.employee_name
 ORDER BY
+
    total_leaves DESC;
 CREATE TABLE employee (
     emp_id INT PRIMARY KEY,
